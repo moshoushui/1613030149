@@ -1,0 +1,538 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    padding-bottom: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: "Microsoft YaHei";
+}
+.font_26
+{
+    font-size:26px;
+}
+table {
+    border-collapse: collapse;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+table td ,th{
+	line-height: 1.2;
+    vertical-align: middle;
+    padding: 0.75rem;
+	vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    vertical-align:middle;
+    padding-left:40px;
+}
+.icon {
+    border-radius: 50% !important;
+    margin-right: 10px;
+    vertical-align:middle;
+}
+.blue
+{ 
+    color: #8abff5; 
+}
+.white
+{
+    color:white;
+}
+ul
+{
+    padding:0px;
+    margin:0px;
+}
+li
+{
+    list-style: none;
+}
+.mytable
+{
+    width:1200px;
+    margin:0 auto;
+    margin-top:20px;
+    color:#76838f;
+    text-align: left;
+    border-radius: 0.625rem;
+    box-shadow: 6px 11px 41px -28px #a99de7;
+    margin-bottom: 20px;
+}
+.mytable2
+{
+    width:1200px;
+    margin:0 auto;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.mytable2 td
+{
+    line-height: 1.5;
+    vertical-align: middle;
+    padding: 0.75rem;
+    vertical-align: top;
+    border: 1px solid black;
+    vertical-align:middle;
+    padding-left:40px;
+}
+.mytable2 caption
+{
+    background: #89c6f5;
+    line-height: 1.5; 
+    border: 1px solid black;
+    padding: 0.75rem;
+}
+.mytable2 tr:nth-child(odd){
+    background: #9393f6;  
+}
+.myinputtext
+{
+    width:300px;
+    height:auto;
+    min-height: 50px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:15px;
+    padding:5px;
+    letter-spacing: 2px;
+    box-shadow:none;
+    border-radius: 2px;
+    border: 2px solid #8abff5;
+    vertical-align:bottom;
+    list-style: none;
+    display: inline-block;
+    resize:vertical;
+    overflow: auto;
+    font-feature-settings:'tnum';
+    font-variant:tabular-nums;
+}
+.myinputtext:focus
+{
+    box-shadow:0 0 5px rgb(222, 137, 248); 
+    border-radius: 2px;
+    border: 1px solid rgb(222, 137, 248);
+}
+.myinput
+{
+    width:300px;
+    height:30px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:15px;
+    padding-left:5px;
+    letter-spacing: 2px;
+    box-shadow:none;
+    border-radius: 2px;
+    border: 2px solid #8abff5;
+}
+.myinput:focus
+{
+    box-shadow:0 0 5px rgb(222, 137, 248); 
+    border-radius: 2px;
+    border: 1px solid rgb(222, 137, 248);
+}
+.mybutton
+{
+    border-radius: 3px;
+    width:80px;
+    height:35px;
+    cursor: pointer;
+    outline: none;    
+    border:none;
+    background: #8abff5;
+    color:white;
+    margin-top:10px;
+}
+.mybutton:hover
+{
+    color:#8abff5;
+    background: white;
+    border:1px solid #8abff5;
+    box-shadow: none;
+}
+.header
+{
+    width:89%;
+    padding-right:11%;
+    height:120px;
+    font-size:30px;
+    color:white;
+    padding-top:80px;
+    background:#8abff5;
+    text-align: right;
+    margin-bottom: 1px;
+    font-weight:bold;
+    line-height: 1.5;
+}
+.menu{
+    margin:0 auto;
+    width:1200px;
+    margin-bottom: 100px;
+}
+.menu li
+{
+    border:1px solid #bedbfa;
+}
+.menu>li{
+    float: left;
+}
+.menu a{
+    display: block;
+    text-decoration: none;
+    width: 297px;
+    height: 50px;   
+    line-height: 50px;
+    color: #8abef5;
+    background-color: #2d659f;
+}
+.menu a:hover{
+    background-color:#8abef5;
+    color:#2d659f;
+}
+.drop-down{
+    height: 50px;
+    overflow: hidden;
+    position:relative;
+}
+.drop-down-content{
+    padding: 0;
+    position:absolute;
+}
+.menu_tag
+{
+    width:10px;
+    height:10px;
+    float:left;
+    background:#bedbfa;
+    margin:5px;
+}
+.menu .drop-down:hover{
+    overflow: visible;
+}
+.container {
+    width: 1200px;
+    height: 350px;
+    margin:0 auto;
+    overflow: hidden;
+    text-align: left;
+}
+.container ul {
+    width: 3600px;
+    animation: myani 10s 3s alternate ease-in-out infinite;
+    -ms-animation: myani 10s 3s alternate ease-in-out infinite;
+    -moz-animation: myani 10s 3s alternate ease-in-out infinite;
+    -webkit-animation: myani 10s 3s alternate ease-in-out infinite;
+}
+.container li {
+    width: 1200px;
+    float: left;
+}  
+.container_text {
+	background: black;
+	opacity: 0.6;
+	position:relative;
+	top: -300px;
+	z-index: 20;
+	height: 40px;
+	font-size: 18px;
+    padding-left: 30px;
+	width: 1200px;
+	color: white;
+	padding-top: 10px;
+}
+.my_index
+{
+    width: 1200px;
+    margin:0 auto;
+    display: flex;
+}
+.my_info
+{
+    background: #8abff5;
+    width:590px;
+    /* float:left; */
+    margin-right:20px;
+    margin-top:20px; 
+    text-align: left;
+    margin-bottom: 20px;
+}
+.my_info_content
+{
+    border: 10px solid white;
+    min-height:400px;
+    margin:20px;
+}
+.my_info_content ul
+{
+    margin:20px;
+    margin-left:100px;
+    color:white;
+}
+.my_info_content ul li
+{
+    line-height: 3.0;
+}
+.item
+{font-style: italic;}
+.item_content
+{
+    font-weight: bold;
+}
+.my_form
+{
+    width:540px;
+    border: 2px #8abff5;
+    border-style:double;
+    /* float:left; */
+    margin-left:40px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.my_form_content
+{
+    border: 10px solid #8abff5;
+    min-height:480px;
+    border-radius: 2px;
+    margin:20px;
+}
+.my_form_title { 
+    width:100%;
+    position: relative; 
+    font-size: 18px;
+    height: 45px; 
+    line-height: 45px; 
+    text-align: center; 
+    top: 0px; 
+} 
+.my_form_title:before { 
+    content: "";
+     position: absolute;
+     top:23px;
+     left:125px; 
+     width: 80px; 
+     height: 2px;
+     background-color: #8abff5;  
+} 
+.my_form_title:after { 
+    content: "";
+     position: absolute;
+     top:22px;
+     left:270px; 
+     width: 80px; 
+     height: 2px;  
+     background-color: #8abff5;
+}
+.my_form_content .mybutton
+{
+    float:right;
+    margin-right:100px;
+}
+.footer
+{
+    font-size:12px;
+    letter-spacing: 1px;
+    display: block;
+    color:#777777;
+}
+.photowall
+{
+    display: flex;
+    width:1200px;
+    margin:0 auto;
+}
+.imgBox {
+    width:400px;
+    height:400px;
+    overflow:hidden;
+    cursor:pointer;
+}
+.imgBox img{
+    width:100%;
+    height:100%;
+    transition:all .4s;
+	-moz-transition:all .4s;
+	-webkit-transition:all .4s;
+	-o-transition:all .4s;
+}
+.imgBox .bmbox{ 
+	position: relative; 
+	bottom:50px; 
+    left:0px; 
+	display:none;
+    color:white;
+    background:black ;
+    padding-top:10px;
+    font-size:20px; 
+    text-align:center;
+    width:100%;
+    height:50px;
+ }
+.imgBox:hover .bmbox{   
+	display:block;
+    animation:ttt 0.6s 1 forwards; 
+ }
+.imgBox img:hover {
+	transform:scale(1.2);
+}
+.mytab
+{
+    width:700px;
+    position: absolute;
+    border-radius: 0.625rem;
+    left:10%;
+    color:#87839c;
+    box-shadow: 6px 11px 41px -28px #a99de7;
+}
+.mytab li{
+    float: left;
+}
+.mytab ul li input{ display: none;}
+.mytab ul li label
+{ 
+    float: left; 
+    width: 100px; 
+    height:40px; 
+    line-height: 40px;
+    box-sizing: border-box; 
+    cursor: pointer; 
+    transition: all .3s;
+}
+.mytab ul li input:checked+label{ color: #fff; background-color: #7571f9;}
+.mytab ul li:last-child label{ border:none;}
+.mytab ul li .content{ 
+    opacity: 0; 
+    visibility:hidden; 
+    position: absolute; 
+    left: 0; 
+    top: 40px; 
+    width: 700px; 
+    height: 300px;
+    box-sizing: border-box; 
+    font-size: 24px;
+    color: #fff; 
+    transition: all .3s;
+}
+.mycard
+{
+    position: relative;
+   left:750px;
+   width:400px;
+    display: flex;
+    box-shadow: 6px 11px 41px -28px #b1b0ad;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mycard img{
+    width:30%;
+    margin:10px;
+    vertical-align: middle;
+    float:left;
+}
+.mycard_name
+{
+    vertical-align: middle;
+    font-weight:bold;
+    font-size:20px;
+    width:60%;
+}
+.mycard_class
+{
+    vertical-align: middle;
+    font-weight:normal;
+    color:#b1b0ad;
+    width:60%;
+}
+.mycard_me
+{
+    font-weight:bold;
+    font-size:15px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.mycard_content
+{
+    font-weight:normal;
+    font-size:12px;
+    color:#b1b0ad;
+    letter-spacing: 1px;
+    margin-left:10px;
+    margin-right:10px;
+    text-align: left;
+}
+.about
+{
+    background: #8abef5;
+    width:1180px;
+    text-align: left;
+    margin:0 auto;
+    border-radius: 2px;
+    padding-right:20px;
+    padding-bottom: 30px;
+    color:white;
+}
+.about h3{
+    background: #a99de7;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:100%;
+    border-bottom:2px solid #fff; 
+}
+.about ul{
+    padding-left:20px;
+    padding-top:10px;
+    width:100%;
+}
+.mytab ul li:nth-child(1) .content img{ width:30%;float: left;margin-top:20px;border-radius: 2px;}
+.mytab ul li:nth-child(1) .content p{ color:#87839c;font-size:15px;margin-left:10px;float: left;width:50%;margin-top:20px;}
+.mytab ul li:nth-child(2) .content img{ width:30%;float: left;margin-top:20px;border-radius: 2px;}
+.mytab ul li:nth-child(2) .content p{ color:#87839c;font-size:15px;margin-left:10px;float: left;width:50%;margin-top:20px;}
+.mytab ul li:nth-child(3) .content img{ width:30%;float: left;margin-top:20px;border-radius: 2px;}
+.mytab ul li:nth-child(3) .content p{ color:#87839c;font-size:15px;margin-left:10px;float: left;width:50%;margin-top:20px;}
+.mytab ul li input:checked~.content{ opacity: 1; visibility:visible;}
+ @keyframes myani { 
+0% {
+    margin-left: 0px;
+} 20% {
+    margin-left: -1200px;
+} 40% {
+    margin-left: -2400px;
+} } 
+/*对动画的关键帧进行兼容处理*/ 
+@-webkit-keyframes myani 
+{ 0% {
+    margin-left: 0px;
+} 20% {
+    margin-left: -1200px;
+} 40% {
+    margin-left: -2400px;
+} } 
+@-moz-keyframes myani { 0% {
+    margin-left: 0px;
+} 20% {
+    margin-left: -1200px;
+} 40% {
+    margin-left: -2400px;
+} } 
+@-ms-keyframes myani { 0% {
+    margin-left: 0px;
+} 20% {
+    margin-left: -1200px;
+} 40% {
+    margin-left: -2400px;
+} }
+@keyframes ttt {
+    0%{
+      opacity:0;
+    }
+    66%{ /*这里表示3s的66%也就是大约2秒的时候*/
+      opacity:0.5;
+    }
+    100%{
+      opacity:0.8;
+    }
+  }
