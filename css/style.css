@@ -416,6 +416,18 @@ li
     color: #fff; 
     transition: all .3s;
 }
+.mytab ul li .content p{ 
+    text-align: left;
+    text-indent:2em;
+    font-size:14px;
+    line-height: 1.5;
+}
+.mytab ul li .content ul{ 
+    text-align: left;
+    text-indent:2em;
+    font-size:13px;
+    float:none;
+}
 .mycard
 {
     position: relative;
@@ -488,11 +500,11 @@ li
     width:100%;
 }
 .mytab ul li:nth-child(1) .content img{ width:30%;float: left;margin-top:20px;border-radius: 2px;}
-.mytab ul li:nth-child(1) .content p{ color:#87839c;font-size:15px;margin-left:10px;float: left;width:50%;margin-top:20px;}
-.mytab ul li:nth-child(2) .content img{ width:30%;float: left;margin-top:20px;border-radius: 2px;}
-.mytab ul li:nth-child(2) .content p{ color:#87839c;font-size:15px;margin-left:10px;float: left;width:50%;margin-top:20px;}
+.mytab ul li:nth-child(1) .content p{ color:#87839c;margin-left:15px;float: left;width:60%;margin-top:20px;}
+.mytab ul li:nth-child(2) .content img{ width:30%;float: left;margin-top:10px;border-radius: 2px;}
+.mytab ul li:nth-child(2) .content ul{ color:#87839c;margin-left:15px;float: left;width:65%;margin-top:0px;}
 .mytab ul li:nth-child(3) .content img{ width:30%;float: left;margin-top:20px;border-radius: 2px;}
-.mytab ul li:nth-child(3) .content p{ color:#87839c;font-size:15px;margin-left:10px;float: left;width:50%;margin-top:20px;}
+.mytab ul li:nth-child(3) .content p{ color:#87839c;margin-left:15px;float: left;width:60%;margin-top:20px;}
 .mytab ul li input:checked~.content{ opacity: 1; visibility:visible;}
  @keyframes myani { 
 0% {
